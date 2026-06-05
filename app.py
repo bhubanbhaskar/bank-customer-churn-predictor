@@ -220,3 +220,7 @@ if st.button("🔍 Predict Churn", use_container_width=True):
     except Exception as e:
         st.error(f"Error: {e}")
         st.exception(e)
+
+    st.divider()
+
+st.caption("Developed by Bhuban Bhaskar 🚀 | Bank Customer Churn Predictor")
